@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAMRACHEL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+
+    <div class="wrap">
+        
+        <header>
+            <h1 class="logo"><a href="index.htm"><img src="image/zap (1).svg"></a></h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#video">VIDEO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+<div class="wrap-all">
+
+    <main class="main-card">
+    </main>
+
+<section>
+    <div class="card DAY1">
+        <div class="card-image">
+            DAY 1
+        </div>
+        <div class="card-intro">
+            <li>슬픔을 나누면 반으로 되지만,</li>
+            <li>기쁨을 나누면 배가된다.</li>
+        </div>
+    </div>
+    <div class="card DAY2">
+        <div class="card-image">
+            DAY2
+        </div>
+        <div class="card-intro">
+        <li>조급해하지 말고,</li>
+        <li>너무 멀리 보지 말고</li>
+        <li>꾸준히 목표를 향해 가십시오.</li>
+        </div>
+
+    </div>
+    <div class="card DAY3">
+        <div class="card-image">
+            DAY3
+        </div>
+        <div class="card-intro">
+            <li>출이라는 게.</li>
+            <li>그런 그런 무색하게 만드는 거 같아요.</li>        
+        </div>
+    </div>
+    <div class="card DAY4">
+        <div class="card-image">
+            DAY4
+        </div>
+        <div class="card-intro">
+            세상에는 돈, 성공 말고도 많은 가치 있는 것들이 있어 행복, 자기 만족, 세계 평화, 사랑.        
+        </div>
+    </div>
+
+</section>
+        <section id="video">
+            <h2>VIDEO</h2>
+          <div class="video-wrap">
+            <div class="left">
+                <li>STREET WOMAN FIGHTER2</li>
+                <li>［ON THE STAGE］ Tour</li>
+                <li>- SEOUL</li>
+                <li>Olympic Handball Gymnasium</li>                
+            </div>
+            <div class="image">PLAY VIDEO</div>
+            <div class="front"><a href="https://youtu.be/MJJV9WNm0fI?si=Fh_SqRlWwR-qL_Q9"><img src="image/play-circle (7).svg">
+            </a></div>
+        </div>
+        </section>
+        <section id="about">
+            <h2>ABOUT</h2>
+            <p>
+                Hey there! I'm Rachel, a passionate university student with a love for the arts and a curiosity that drives me to try new things. One of my favorite ways to capture and relive moments is through the lens of my camera.
+                I find joy in freezing those fleeting moments in time, turning them into cherished memories. Many of my most memorable snapshots come from my journey in Korea, a place that has not only fueled my creativity but also holds a special place in my heart.
+                Join me on this journey as I navigate the worlds of art, exploration, and everything in between. Let's make each moment unforgettable!
+            </p>
+        </section>
+        <section id="contact">
+            <h2><h3>CONTACT WITH ME</h3></h2>
+            <footer class="below">
+                <div class="social_icons">
+                <a href="#instergram">IG</a>
+                <a href="#youtube">YT</a>
+                <a href="#email">mail</a>
+                <a href="#linkin">linkin</a>
+                <button type="button" id="BackTop" class="toTop-arrow"></button>
+            <script>
+            $(function(){
+                $('#BackTop').click(function(){ 
+                    $('html,body').animate({scrollTop:0}, 333);
+                });
+                $(window).scroll(function() {
+                    if ( $(this).scrollTop() > 300 ){
+                        $('#BackTop').fadeIn(222);
+                    } else {
+                        $('#BackTop').stop().fadeOut(222);
+                    }
+                }).scroll();
+            });
+            </script>
+                            </div>
+                        </footer> 
+                    </section>
+        
+    
+</div>
+</body>
+</html>

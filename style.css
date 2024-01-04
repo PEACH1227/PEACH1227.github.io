@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    background-color: black;
+}
+.wrap {
+    width: 940px;
+    margin: 20px auto;
+}
+h2 {
+    color: white;
+    font-weight: normal;
+    margin: 20px 0;
+}
+section {
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+    width: 940px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+section{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+header {
+    font-family: 'Antonio', sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    background-image:url(image/zap.svg);
+
+}
+header a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.header h1 a{
+    background-image:url(image/zap\ \(1\).svg);
+    width: 128px;
+    height: 128px;
+    display: block;
+    text-indent: 101%;
+    overflow:hidden;
+    white-space: nowrap;
+  }
+
+header h1 {
+    margin-right: auto;
+}
+
+ul.menu {
+    display: flex; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+ul.menu a {
+    padding: 10px 20px;
+}
+ul.menu a:hover {
+    background-color: gray;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+}
+div.wrap-all {
+    width: 900px;
+    margin: 16px auto;
+    background-color: black;
+}
+main.main-card {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    width: 900px;
+    height: 400px;
+    margin-bottom: 16px;
+    padding-top: 20px;
+    padding-left: 300px;
+    background-image: url(image/000786570012.jpg);
+    background-position-y: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+div.card {
+    width: 400px;
+    height: 350px;
+    background-size: cover;
+    background-color:black;
+    border-radius: 0px;
+    overflow: hidden;
+}
+div.card-image {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 250px;
+    padding-top: 220px;
+    padding-left: 180px;
+    background-size: cover;
+}
+div.card-intro {
+    color: white;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 16px 20px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+div.DAY1 .card-image {
+    background-image: url(image/000786570003.jpg);
+    background-position-y: center;
+}
+div.DAY2 .card-image {
+    background-image: url(image/000786570004.jpg);
+}
+div.DAY3 .card-image {
+    background-image: url(image/000786570005.jpg);
+}
+div.DAY4 .card-image {
+    background-image: url(image/000786570007.jpg);
+}
+
+
+.video-wrap{
+    display: flex;
+    height: 350px;
+}
+
+div.left{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+div.image{
+    background-image: url(image/wuff.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 30px 0px;
+    height: 600px;
+    width: 600px;
+    padding-left: 295px;
+    padding-top: 180px;
+    color: white;
+}
+
+div.front{
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    z-index: 10;
+    padding-left: 565px;
+    padding-top: 135px;
+}
+
+section li{
+    color: white;
+    list-style: none;
+}
+
+section p{
+    font-family: 'Crimson Text', serif;
+    color: white;
+
+}
+
+section h3{
+    font-family: 'Antonio', sans-serif;
+    font-weight: normal;
+    color: white;
+    padding-left: 350px;
+
+}
+div.social_icons{
+    display: flex;
+    padding: 0px 300px;
+    margin-top: 5px;
+    
+}
+
+.social_icons a {
+    width: 100px;
+    height: 90px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    float:left;
+    }
+
+.social_icons a[href="#instergram"] {
+    background-image: url(image/instagram\ \(3\).svg);
+}
+
+.social_icons a[href="#youtube"] {
+    background-image: url(image/youtube\ \(1\).svg); 
+}
+
+.social_icons a[href="#email"] {
+    background-image: url(image/mail\ \(1\).svg);
+}
+
+.social_icons a[href="#linkin"] {
+    background-image: url(image/linkedin\ \(1\).svg); 
+}
+
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+    background-image: url(image/arrow-up-circle\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+
